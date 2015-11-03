@@ -98,7 +98,7 @@ describe('componentname', () => {
   describe('business logic', () => {
   });
 
-  describe('UI', () => {
+  describe('UI logic', () => {
   });
 });
 ```

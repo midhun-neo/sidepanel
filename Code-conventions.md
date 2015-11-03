@@ -89,7 +89,7 @@ It is just to add some semantics to our code.
 
 We found that for a best testing coverage, On the one hand, you should test your business logic and on the other hand your UI logic.
 
-For more details our tests to see what needs to be tested for each kind of test. Still, they basic skeleton for a test would be:
+For more details, check our tests to see what needs to be tested for each kind of test. Still, the basic skeleton for a test would be:
 
 ```javascript
 describe('componentname', () => {

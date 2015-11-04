@@ -92,6 +92,8 @@ We found that for a best testing coverage, On the one hand, you should test your
 For more details, check our tests to see what needs to be tested for each kind of test. Still, the basic skeleton for a test would be:
 
 ```javascript
+// imports
+
 describe('componentname', () => {
   // some common code / matchers / initialization
 

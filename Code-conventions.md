@@ -19,7 +19,7 @@ class Component {
 }
 ```
 
-An exception would be strings, they will have their type explicitly:
+An exception would be strings (and other complex types), they will have their type explicitly:
 
 ```javascript
 class Component {
@@ -36,14 +36,14 @@ class Component {
   private _foo: string;
 
   @Input()
-  set foo(newFoo: string) {
-    this._foo = newFoo;
+  set foo(value: string) {
+    this._foo = value;
     this.doSomethingElse();
   }
 }
 ```
 
-The setter will have a parameter named like the setter, but prepended by new, in camelCase. Also notice how we prepended our instance variable with an underscore and marked it as private.
+The setter will have a parameter named `value`. Also notice how we prepended our instance variable with an underscore and marked it as private.
 
 Since our instance variable is "private" now, we need to offer a getter too:
 
@@ -52,8 +52,8 @@ class Component {
   private _foo: string;
 
   @Input()
-  set foo(newFoo: string) {
-    this._foo = newFoo;
+  set foo(value: string) {
+    this._foo = value;
     this.doSomethingElse();
   }
 
@@ -63,31 +63,31 @@ class Component {
 
 ### Internal logic
 
-If you have methods or variables that are just business logic and it is not meant to be usable as an input / output, you mark them as private. For example:
+For semantics, if you have methods or variables that are just business logic and it is not meant to be usable as an input / output, you mark them as private. For example:
 
 ```javascript
 class Component {
  ...
- private tempState: number;
+ private _tempState: number;
 
- private generateState() {
+ private _generateState() {
    this.tempState = ...
    // Do other stuff
  }
 }
 ```
 
-Neither `generateState` nor `tempState` is really meant to be usable from the outside, they just define the internal private state. Keep in mind that `private` won't avoid a enduser of doing:
+Neither `_generateState` nor `_tempState` is really meant to be usable from the outside, they just define the internal private state. Keep in mind that `private` won't avoid a enduser of doing:
 
 ```html
-<component #component></component> {{ component.tempState }}
+<component #component></component> {{ component._tempState }}
 ```
 
-It is just to add some semantics to our code.
+But at least the user will know that he "shouldn't" do it.
 
 ### Testing conventions for components
 
-We found that for a best testing coverage, On the one hand, you should test your business logic and on the other hand your UI logic.
+We found that for a best testing coverage, On the one hand, you should test your business logic and on the other hand your UI logic. Business logic tests are not always doable (if your component is too tied to the DOM), but they could be a worthy addition.
 
 For more details, check our tests to see what needs to be tested for each kind of test. Still, the basic skeleton for a test would be:
 
@@ -102,5 +102,17 @@ describe('componentname', () => {
 
   describe('UI logic', () => {
   });
+});
+```
+
+If there are no business logic tests yet, you can skip the inner describes:
+
+```javascript
+// imports
+
+describe('componentname', () => {
+  // some common code / matchers / initialization
+
+  // UI logic tests
 });
 ```

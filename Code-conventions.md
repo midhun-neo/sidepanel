@@ -85,6 +85,8 @@ Neither `_generateState` nor `_tempState` is really meant to be usable from the 
 
 But at least the user will know that he "shouldn't" do it.
 
+On the other hand, if some variable / method is being used in the template, it is not considered private so it doesn't have the `private` keyword nor the underscore.
+
 ### Testing conventions for components
 
 We found that for a best testing coverage, On the one hand, you should test your business logic and on the other hand your UI logic. Business logic tests are not always doable (if your component is too tied to the DOM), but they could be a worthy addition.

@@ -23,7 +23,7 @@ An exception would be strings (and other complex types), they will have their ty
 
 ```javascript
 class Component {
-  stuff: Array<string> = [];
+  stuff: string[] = [];
 }
 ```
 

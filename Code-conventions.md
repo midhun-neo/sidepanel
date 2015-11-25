@@ -118,3 +118,46 @@ describe('componentname', () => {
   // UI logic tests
 });
 ```
+
+### Component internal organization
+
+We organize our component like (always in alphabetical order):
+
+```typescript
+class MyComp {
+  // private variables and then public
+  private _bar: string;
+  private _foo: number;
+  myVar = 10;
+
+  // Inputs and input setters (with empty spaces between)
+  @Input() anInput: boolean;
+  @Input() baz: string;
+
+  @Input()
+  set foo(...) { ... }
+
+  get foo() { ... }
+
+  @Input()
+  set rate(...) { ... }
+
+  get rate() { ... }
+
+  // Outputs
+  @Ouput() fooChange = new EventEmitter();
+  @Ouput() rateChange = new EventEmitter();
+
+  // Methods
+  doSomething() { ... }
+
+  editFoo() { ... }
+
+  // Private methods
+  private _internalStuff() { ... }
+
+  private _rateCalculation() { ... }
+}
+```
+
+  

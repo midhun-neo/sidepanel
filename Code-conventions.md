@@ -144,11 +144,15 @@ class MyComp {
 
   get rate() { ... }
 
+  @Input() width: number;
+
   // Outputs
   @Ouput() fooChange = new EventEmitter();
   @Ouput() rateChange = new EventEmitter();
 
-  // Methods
+  // Methods (If there is a constructor, always first)
+  constructor() { ... }
+
   doSomething() { ... }
 
   editFoo() { ... }

@@ -9,12 +9,12 @@ This page gathers all the issues and future requests reported upstream to the An
 
 * accordion: https://docs.google.com/document/d/1335H9D92jo2Xo0g26BhB_nhrNpCTmHsnRr7t50ndH1Y/edit?usp=sharing
 * alert: https://docs.google.com/document/d/1tMEhoAHhi-BZgHlbOMdxa5fu-Ev9PVM78SgC5uiGySk/edit?usp=sharing
+* modal: https://docs.google.com/document/d/1am3siQ2hJLlmk5Xckt1Ef8HXcaZHnxcUGoxR7Ew3534/edit?usp=sharing
 * tabs: https://docs.google.com/document/d/1VC_Gf8ECdyf5QP9Iu0ol0w1pSAbPBfrnt27ZdPLoWiw/edit?usp=sharing
 
 # Opened issues / PRs tracking
 
 Here is the list of Angular2 issues / PRs that are important for this project and needs to be tracked:
 * children events: https://github.com/angular/angular/issues/5467
-* ng-outlet / ng-insert: https://github.com/angular/angular/issues/7615
 * async events: https://github.com/angular/angular/issues/6311
 * variables on template elements: https://github.com/angular/angular/issues/7158

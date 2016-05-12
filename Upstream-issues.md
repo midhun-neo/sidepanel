@@ -19,6 +19,7 @@ Here is the list of Angular2 issues / PRs that are important for this project an
 * children events: https://github.com/angular/angular/issues/5467
 * async->sync events: https://github.com/angular/angular/issues/6311
 * testing with timers: https://github.com/angular/angular/issues/8616
+* testing with async tasks triggered in ng lifecycle hooks: https://github.com/angular/angular/issues/8617
 
 # Issues already solved, yay!
 

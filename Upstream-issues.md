@@ -15,6 +15,12 @@ This page gathers all the issues and future requests reported upstream to the An
 # Opened issues / PRs tracking
 
 Here is the list of Angular2 issues / PRs that are important for this project and needs to be tracked:
+* dealing with child elements: https://github.com/angular/angular/issues/8563
 * children events: https://github.com/angular/angular/issues/5467
-* async events: https://github.com/angular/angular/issues/6311
+* async->sync events: https://github.com/angular/angular/issues/6311
+* testing with timers: https://github.com/angular/angular/issues/8616
+
+# Issues already solved, yay!
+
+Those are the issues we got solved in core thnx to awesome help from the Angular team!
 * variables on template elements: https://github.com/angular/angular/issues/7158

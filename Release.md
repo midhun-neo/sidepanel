@@ -1,0 +1,1 @@
+See https://github.com/ng-bootstrap/ng-bootstrap/issues/502

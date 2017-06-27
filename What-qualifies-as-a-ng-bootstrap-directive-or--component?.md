@@ -1,4 +1,8 @@
-If you compare a list of components on the official [Bootstrap 4 documentation site](https://v4-alpha.getbootstrap.com/components) with the list on the [ng-bootstrap demo site](https://ng-bootstrap.github.io/#/components) you will notice that those 2 list don't match. On one hand we've got more components (ex. date-picker, typeahead) but also lacking equivalent of some components (ex. badge, card). 2 sections below try to explain our rationale when deciding what should be implemented as a ng-bootstrap component.
+If you compare a list of components on the official [Bootstrap 4 documentation site](https://v4-alpha.getbootstrap.com/components) with the list on the [ng-bootstrap demo site](https://ng-bootstrap.github.io/#/components) you will notice that those 2 list don't match. 
+
+On one hand we've got more components (ex. date-picker, typeahead) but also lacking equivalent of some components (ex. badge, card). 
+
+2 sections below try to explain our rationale when deciding what should be implemented as a ng-bootstrap component.
 
 # Bootstrap 4 components without ng-bootstrap equivalents
 

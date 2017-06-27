@@ -47,7 +47,7 @@ We've implemented a number of components that don't have equivalents in Bootstra
 * [timepicker](https://ng-bootstrap.github.io/#/components/timepicker) 
 * [typeahead](https://ng-bootstrap.github.io/#/components/typeahead)
 
-The above components are commonly used in web applications (especially datepicker and typeahead) so it is hard to skip those in a general-purpose widget library like ng-bootstrap. We plan on adding more widgets like those long-term and we are considering selec2-like components, data grids, tree view and others. But before making any progress in this area we want to stabilise existing widgets and update our infrastructure (build, documentation etc.) so additional components can be maintained / released separately from the core set of widgets.
+The above components are commonly used in web applications (especially datepicker and typeahead) so it is hard to skip those in a general-purpose widget library like ng-bootstrap. We plan on adding more widgets like those long-term and we are considering select2-like components, data grids, tree view and others. But before making any progress in this area we want to stabilise existing widgets and update our infrastructure (build, documentation, etc.) so additional components can be maintained / released separately from the core set of widgets.
 
 ### And all the rest...
 

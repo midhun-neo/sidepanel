@@ -4,7 +4,7 @@ On one hand we've got more components (ex. date-picker, typeahead) but also lack
 
 2 sections below try to explain our rationale when deciding what should be implemented as a ng-bootstrap component.
 
-# Bootstrap 4 components without ng-bootstrap equivalents
+### Bootstrap 4 components without ng-bootstrap equivalents
 
 There are many "components" on the [Bootstrap 4 documentation site](https://v4-alpha.getbootstrap.com/components) that are simple HTML tags with associated CSS classes (but no JS behaviour whatsoever). Examples of such simple components include [badges](https://v4-alpha.getbootstrap.com/components/badge/), [breadcrumbs](https://v4-alpha.getbootstrap.com/components/breadcrumb/) or [cards](https://v4-alpha.getbootstrap.com/components/card/).
 
@@ -39,7 +39,7 @@ Based on the above criteria we've decided to _not_ implement as ng-bootstrap com
 
 Obviously it is not always a "clean cut" and even within the team we had lengthy discussions about supporting cards or navbars. Given this we are open to hear community's feedback: if you've got a use-case / API proposal that makes new abstraction "worthwhile", please open an issue with the API proposal.  
 
-# ng-bootstrap components without Bootstrap 4 equivalents
+### ng-bootstrap components without Bootstrap 4 equivalents
 
 We've implemented a number of components that don't have equivalents in Bootstrap 4 CSS:
 * [datepicker](https://ng-bootstrap.github.io/#/components/datepicker)
@@ -49,7 +49,7 @@ We've implemented a number of components that don't have equivalents in Bootstra
 
 The above components are commonly used in web applications (especially datepicker and typeahead) so it is hard to skip those in a general-purpose widget library like ng-bootstrap. We plan on adding more widgets like those long-term and we are considering selec2-like components, data grids, tree view and others. But before making any progress in this area we want to stabilise existing widgets and update our infrastructure (build, documentation etc.) so additional components can be maintained / released separately from the core set of widgets.
 
-# And all the rest...
+### And all the rest...
 
 Then there are components that _are_ part of Bootstrap 4 CSS and for which we would _love_ to have Angular directives / components:
 * inputs / forms - markup + CSS is quite verbose so encapsulating it with proper Angular forms support (data binding, validation) would be huge win;

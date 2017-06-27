@@ -1,4 +1,4 @@
-Currently the main focus of the team is to release the first stable, 1.0.0 version of this library. We are _very_ close: ale the core components are implemented, APIs are largely "frozen" and there are very few bugs remaining. 
+Currently the main focus of the team is to release the first stable, 1.0.0 version of this library. We are _very_ close: all the core components are implemented, APIs are largely "frozen" and there are very few bugs remaining. 
 
 # Towards 1.0.0
 

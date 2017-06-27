@@ -6,7 +6,7 @@ On one hand we've got more components (ex. date-picker, typeahead) but also lack
 
 # Bootstrap 4 components without ng-bootstrap equivalents
 
-There are many "components" on the [Bootstrap 4 documentation site](https://v4-alpha.getbootstrap.com/components) that are simple HTML tags with associated CSS classes but no JS behaviour whatsoever. Examples of such simple components include [badges](https://v4-alpha.getbootstrap.com/components/badge/), [breadcrumbs](https://v4-alpha.getbootstrap.com/components/breadcrumb/) or [cards](https://v4-alpha.getbootstrap.com/components/card/).
+There are many "components" on the [Bootstrap 4 documentation site](https://v4-alpha.getbootstrap.com/components) that are simple HTML tags with associated CSS classes (but no JS behaviour whatsoever). Examples of such simple components include [badges](https://v4-alpha.getbootstrap.com/components/badge/), [breadcrumbs](https://v4-alpha.getbootstrap.com/components/breadcrumb/) or [cards](https://v4-alpha.getbootstrap.com/components/card/).
 
 While we could create an Angular wrapper around those simple HTML structures the value of doing so would be minimal. Let's take [badges](https://v4-alpha.getbootstrap.com/components/badge/) as an example. To use raw Bootstrap's HTML one needs to write:
 
@@ -20,12 +20,12 @@ By turning this markup into an Angular component we would end up with something 
 <ng-badge [pill]="true" type="success">Success</ng-badge>
 ```
 
-In this example one needs to write almost _exactly_ the same amount of code to display a badge. So we are not cutting on code to write but still introducing a new abstraction that has some cost:
-* people need to learn API instead of just looking up HTML + CSS structure in the Bootstrap's documentation
-* ng-bootstrap library gets bigger
+In this example one needs to write almost _exactly_ the same amount of code to display a badge. So we are not cutting on the amount of code to write but still introducing a new abstraction. And every abstraction has cost:
+* people need to learn API instead of just looking up HTML + CSS structure in the Bootstrap's documentation;
+* ng-bootstrap library gets bigger (more code to download and maintain etc.);
 * Angular will have to generate code / create date structures associated with a new component so performance would suffer.
 
-We are very careful about _not_ coding / shipping components or directives that would introduce new abstractions without providing value. A component or directive needs to do something "useful" to make it into ng-bootstrap codebase. In general we see those things as providing value and thus justifying new abstraction:
+We are very careful about _not_ coding / shipping components or directives that would introduce new abstractions without providing enough value. A component or directive needs to do something "useful" to make it into ng-bootstrap codebase. In general we see those things as providing value and thus justifying new abstraction:
 * JS behaviour (ex. positioning tooltips, toggling collapse with animations, opening modal etc.);
 * encapsulating markup that is repetitive / verbose to write by hand;
 * enhancing markup with accessibility support (screen readers, keyboard navigation etc.) that would be tricky to do "by hand";

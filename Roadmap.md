@@ -4,7 +4,7 @@ Currently the main focus of the team is to release the first stable, 1.0.0 versi
 
 Estimating software release dates is hard so instead here is a list of remaining work before a stable 1.0.0 release can be cut:
 
-* `beta.0` - will be released when base functionality for all the core components is ready _and_ Bootstrap 4 released its first beta. You can track progress towards beta.0 in the [dedicated milestone](https://github.com/ng-bootstrap/ng-bootstrap/milestone/32)
+* `beta.1` - since Bootstrap 4 released its first beta, we did so as well and now are officially out of the alpha cycle!
 * `beta.2-x` - subsequent betas will contain bug-fixes and smaller features with no or minimal breaking changes;
 * `rc.1` - to be released when the library is stable (no bugs reported for common scenarios - we still might have bugs for corner cases) _and_ Bootstrap 4 goes RC.
 * `1.0.0` - no critical bugs / regressions reported for rc(s) _and_ Bootstrap 4 final is released.

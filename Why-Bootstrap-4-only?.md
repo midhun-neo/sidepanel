@@ -12,11 +12,11 @@ But why not supporting Bootstrap 3 _and_ Bootstrap 4 at the same time, you might
 
 Supporting 2 versions of the CSS framework is not an easy task. Essentially we would have to find a way to have different templates per component, generate different documentation and demo pages, release 2 different versions of the library and adjust the build to support all this. This can be done but we've decided that the time spent on adding support for the unmaintained CSS framework version could be better spend on making World-class widgets that support just Bootstrap 4. There are tons of things that need attention (accessibility, animations, customizations etc.) and we've prioritised those over Bootstrap 3 support.
 
-### But I can't use Bootstrap 4 as it is still in alpha
+### But I can't use Bootstrap 4 as it is still in beta
 
-We are painfully aware that some organisations will freak out when they see `alpha` in any library version. The good news is that Bootstrap 4 is close to releasing its beta and we will release beta of ng-bootstrap as soon as Bootstrap 4 bumps up its version. We believe that in few weeks this "problem" will naturally go away.   
+We are painfully aware that some organisations will freak out when they see `beta` in any library version. The good news is that Bootstrap 4 is close to releasing its RC and we will release RC of ng-bootstrap as soon as Bootstrap 4 bumps up its version. We believe that in few weeks this "problem" will naturally go away.   
 
-If you are starting a new project the choice should be no-brainer - it will be much, much easier to migrate from Bootstrap 4 alpha to Bootstrap 4 final as compared to doing Bootstrap 3 -> Bootstrap 4 migration.
+If you are starting a new project the choice should be no-brainer - it will be much, much easier to migrate from Bootstrap 4 beta to Bootstrap 4 final as compared to doing Bootstrap 3 -> Bootstrap 4 migration.
 
 ### But I've got my project that runs on Bootstrap 3
 

@@ -1,3 +1,5 @@
+# Code conventions
+
 Let's describe the conventions we agreed upon.
 
 ### Instance variables

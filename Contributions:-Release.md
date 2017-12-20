@@ -1,3 +1,5 @@
+# Release
+
 * [ ] bump up version in `package.json`
 * [ ] generate and edit changelog (`gulp changelog`). Commit with `chore: release [version]`
 * [ ] tag a release (ex.: `git tag 1.0.0-alpha.1`)

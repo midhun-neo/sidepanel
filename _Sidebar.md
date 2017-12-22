@@ -1,1 +1,8 @@
-_
+  * [Why Bootstrap 4 only?](./Why-Bootstrap-4-only%3F)
+  * [Contributions](./Contributions)
+    * [Code conventions](./Contributions%3A-Code-conventions)
+    * [How to get a PR merged fast?](./Contributions%3A-How-to-get-a-PR-merged-fast%3F)
+    * [Release](./Contributions%3A-Release)
+  * [Upstream issues](./Upstream-issues)
+  * [What qualifies as a ng bootstrap directive or  component?](./What-qualifies-as-a-ng-bootstrap-directive-or--component%3F)
+  * [Roadmap](./Roadmap)

@@ -1,3 +1,5 @@
 * [Code conventions](https://github.com/ng-bootstrap/ng-bootstrap/wiki/Contributions%3A-Code-conventions)
+* [What qualifies as a ng bootstrap directive or  component?](./What-qualifies-as-a-ng-bootstrap-directive-or--component%3F)
 * [How to get a PR merged fast?](https://github.com/ng-bootstrap/ng-bootstrap/wiki/Contributions%3A-How-to-get-a-PR-merged-fast%3F)
-* [Release](https://github.com/ng-bootstrap/ng-bootstrap/wiki/Contributions%3A-Release)
+* [Release process](https://github.com/ng-bootstrap/ng-bootstrap/wiki/Contributions%3A-Release)
+* [Upstream issues](./Upstream-issues)

@@ -1,2 +1,2 @@
-* [./Users]
-* [./Contributions]
+* [Library users](./Users)
+* (Contributors)[./Contributions]

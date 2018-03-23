@@ -4,7 +4,7 @@
 // TODO
 
 ## Minor x.x.0
-* [ ] go through `feat` commits and update new feature comments with `@since x.x.0`
+* [ ] go through `feat` commits and update new feature comments with `@since x.x.0` and deprecated ones with `@deprecated x.x.0 Explanation why here`
 * [ ] commit documentation changes
 
 // TODO: what to do with deprecations?

@@ -1,5 +1,15 @@
 # Release
 
+## Major x.0.0
+// TODO
+
+## Minor x.x.0
+* [ ] go through `feat` commits and update new feature comments with `@since x.x.0`
+* [ ] commit documentation changes
+
+// TODO: what to do with deprecations?
+
+## Version + publish
 * [ ] bump up version in `package.json`
 * [ ] generate and edit changelog (`gulp changelog`)
 * [ ] commit `package.json` and changelog update with `chore: release [version]`

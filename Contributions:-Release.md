@@ -8,9 +8,9 @@
 * [ ] commit documentation changes
 
 ## Version + publish
-* [ ] bump up version in `package.json`
-* [ ] generate and edit changelog (`gulp changelog`)
-* [ ] commit `package.json` and changelog update with `chore: release [version]`
+* [ ] bump up version in `package.json` and in `src/package.json`
+* [ ] generate and edit changelog (`gulp changelog`) TODO: move to yarn, as gulp is no longer required?
+* [ ] commit `package.json` and changelog updates with `chore: release [version]`
 * [ ] tag a release (ex.: `git tag 1.0.0-alpha.1`)
 * [ ] push master to GitHub (`git push upstream`)
 * [ ] push tags to GitHub (`git push upstream --tags`)

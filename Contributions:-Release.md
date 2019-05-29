@@ -9,8 +9,6 @@
 
 ## Version + publish
 
-// TODO: move to yarn, as gulp is no longer required?
-
 * [ ] bump up version in `package.json` and in `src/package.json`
 * [ ] generate and edit changelog (`yarn changelog`)
 * [ ] commit `package.json` and changelog updates with `chore: release [version]`

@@ -7,13 +7,14 @@
 * [ ] go through `feat` commits and update new feature comments with `@since x.x.0` and deprecated ones with `@deprecated x.x.0 Explanation why here`
 * [ ] commit documentation changes
 
-## Version + publish
+## Version X.X.X + publish
 
 * [ ] bump up version in `package.json` and in `src/package.json`
 * [ ] generate and edit changelog (`yarn changelog`)
-* [ ] commit `package.json` and changelog updates with `chore: release [version]`
-* [ ] tag a release (ex.: `git tag 1.0.0-alpha.1`)
-* [ ] generate release (`yarn ngb:build`) and push to npm (`cd dist/ng-bootstrap`, `npm publish`, `cd ../..`)
+* [ ] commit `package.json` and changelog updates with `chore: release X.X.X`
+* [ ] tag a release (ex.: `git tag X.X.X`)
+* [ ] generate release (`yarn ngb:build`)
+* [ ] push to npm (`cd dist/ng-bootstrap`, `npm publish`, `cd ../..`). To avoid rewriting `latest` tag in npm, use `npm publish --tag X.X.X` for older patches (to be confirmed...)
 * [ ] push master to GitHub (`git push upstream`)
 * [ ] push tags to GitHub (`git push upstream --tags`)
 * [ ] generate (`yarn demo:build`) and push (`yarn demo:publish`) demo site 

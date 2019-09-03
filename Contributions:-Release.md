@@ -9,7 +9,7 @@
 
 ## Version X.X.X + publish
 
-* [ ] bump up version in `package.json` and in `src/package.json`
+* [ ] bump up version to `X.X.X` in `package.json` and in `src/package.json`
 * [ ] generate and edit changelog (`yarn changelog`)
 * [ ] commit `package.json` and changelog updates with `chore: release X.X.X`
 * [ ] tag a release (ex.: `git tag X.X.X`)

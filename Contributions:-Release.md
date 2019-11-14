@@ -18,7 +18,7 @@
 * [ ] push to npm (`cd dist/ng-bootstrap`, `npm publish`, `cd ../..`). To avoid rewriting `latest` tag in npm, use `npm publish --tag X.X.X` for older patches (to be confirmed...)
 * [ ] push `master` to GitHub (`git push upstream`)
 * [ ] push tags to GitHub (`git push upstream --tags`)
-* [ ] build (`yarn demo:build`) and check StackBlitzes work with the just published `ng-bootstrap` version (ex. see [#3460](https://github.com/ng-bootstrap/ng-bootstrap/issues/3460))
-* [ ] push (`yarn demo:publish`) demo site
+* [ ] run `yarn demo` and check StackBlitzes work with the just published `ng-bootstrap` version (ex. see [#3460](https://github.com/ng-bootstrap/ng-bootstrap/issues/3460))
+* [ ] build (`yarn demo:build`) and push (`yarn demo:publish`) demo site
 * [ ] close a release [milestone](https://github.com/ng-bootstrap/ng-bootstrap/milestones)
 * [ ] let the World know!

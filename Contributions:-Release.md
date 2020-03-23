@@ -5,6 +5,7 @@
 
 ## Minor x.x.0
 * [ ] go through `feat` commits and update new feature comments with `@since x.x.0` and deprecated ones with `@deprecated x.x.0 Explanation why here`
+* [ ] for each new API field check if `static ngAcceptInputType_XXX: XXX;` needs to be added
 * [ ] commit documentation changes
 
 ## Version X.X.X + publish

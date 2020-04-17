@@ -16,7 +16,7 @@
 * [ ] commit both `package.json` files and changelog updates with `docs: release X.X.X`
 * [ ] tag a release (`git tag X.X.X`)
 * [ ] build a release (`yarn ngb:build`)
-* [ ] push to npm (`cd dist/ng-bootstrap`, `npm publish`, `cd ../..`). To avoid rewriting `latest` tag in npm, use `npm publish --tag X.X.X` for older patches (to be confirmed...)
+* [ ] push to npm (`cd dist/ng-bootstrap`, `npm publish`, `cd ../..`). There is no way of NOT rewriting the `latest` tag in npm, so when publishing OLDER releases, you have to manually restore the `latest` tag with `npm dist-tags add @ng-bootstrap/ng-bootstrap@Z.Z.Z latest`
 * [ ] push `master` to GitHub (`git push upstream`)
 * [ ] push tags to GitHub (`git push upstream --tags`)
 * [ ] run `yarn demo` and check StackBlitzes work with the just published `ng-bootstrap` version (ex. see [#3460](https://github.com/ng-bootstrap/ng-bootstrap/issues/3460))

@@ -13,7 +13,7 @@
 
 * [ ] make sure you're on the `master` branch and you're ready to release
 * [ ] generate the new release (`yarn version`). This will generate a tagged release commit with changelog updates, build the library and the demo site.
-* [ ] check the `CHANGELOG.md` in the last commit. If necessary update the file and run `yarn:changelog-patch` to amend changelog and update the git release tag.
+* [ ] check the `CHANGELOG.md` in the last commit. If necessary update the file and run `yarn changelog:patch` to amend changelog and update the git release tag.
 * [ ] push to npm (`cd dist/ng-bootstrap`, `npm publish`, `cd ../..`). There is no way of NOT rewriting the `latest` tag in npm, so when publishing OLDER releases, you have to manually restore the `latest` tag with `npm dist-tags add @ng-bootstrap/ng-bootstrap@Z.Z.Z latest`
 * [ ] push `master` to GitHub (`git push upstream`)
 * [ ] push tags to GitHub (`git push upstream --tags`)
